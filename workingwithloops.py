@@ -20,9 +20,9 @@ while isGuessRight != True:
         isGuessRight = True
     else:
         print("You guessed {}. Sorry, that isn’t it. Try again.".format(guess))
-      print(".........................................................................................")
-print("             Informing the user about the script             ")
+        #To inform the user about your script, use the print() function:
 print("Count to 10!")
+#Python uses indentation to determine that the print statement is inside the for loop statement.):
 for x in range (0, 11):
     print(x)
 
